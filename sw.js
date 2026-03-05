@@ -35,7 +35,7 @@ self.addEventListener('install', e => {
 //evento activar
 //se encarga de la activaciotn del service worker y de la limpieza de caches antiguas
 self.addEventListener('activate', e => {
-    const cacheWhitelist = [CACHE_NAME];
+    const cacheWhitelist = [CACHE_NAME]; //
 
     e.waitUntil(
         caches.keys()
