@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Portafolio | CV Profesional</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+
+  <!---Icono de la PWA-->
+<link rel="icon" type="image/mvr" href="img/mvr.png"/>
+
+<!---Color de la aplicacion--->
+<meta name="theme-color" content="#4CAF50"/>
+
+<!---optimizacion movil--->
+<meta name="MobileOptimized" content="width">
+<meta name="HandheldFriendly" content="true"/>
+
+<!---Para que la PWA se ejecute en modo pantalla completa en IOS-->
+<meta name="apple-moblie-web-app-status-bar-style" content="black-transluscent"/>
+<meta name="apple-moblie-web-app-capable" content="yes"/>
+<link rel="apple-touch-icon" href="img/mvr.png"/>
+<link rel="apple-touch-startuo-image" href="img/mvr.png"/>
+
+<!---Manifest y CSS-->
+<link rel="manifest" href="manifest.json"/>
+</head>
+
+<body>
+
+  <header>
+    <h1>Mildred Villaseñor Ruiz</h1>
+    <h2>Software & Data Engineer | Business Intelligence</h2>
+  </header>
+
+
+  <section class="about">
+    <p>
+      Profesional en desarrollo de software y análisis de datos con experiencia en
+      Business Intelligence, automatización de procesos y desarrollo de aplicaciones web.
+      He trabajado con herramientas modernas para transformar datos en valor
+      estratégico para las organizaciones.
+    </p>
+  </section>
+
+  <section>
+    <h2 class="section-title">Experiencia & Proyectos</h2>
+
+    <div class="projects">
+      <div class="card">
+        <h3>Business Intelligence</h3>
+        <p>
+          Desarrollo de dashboards y reportes utilizando Looker, WebFOCUS
+          y soluciones en la nube para la toma de decisiones.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Data & Cloud</h3>
+        <p>
+          Trabajo con Google Cloud Platform, BigQuery y Dataform
+          para modelado, transformación y análisis de datos.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Automatización & IA</h3>
+        <p>
+          Automatización de procesos con Power Automate,
+          integración de Copilot AI y mejora de flujos operativos.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Desarrollo Web</h3>
+        <p>
+          Creación de aplicaciones web enfocadas en usabilidad,
+          rendimiento y diseño profesional.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">Elementos Visuales</h2>
+
+    <div class="visuals">
+      <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d" alt="Trabajo en equipo">
+      <img src="https://images.unsplash.com/photo-1553877522-43269d4ea984" alt="Análisis de datos">
+      <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" alt="Desarrollo web">
+    </div>
+  </section>
+
+  <section class="cta">
+    <h2>¿Te gustaría trabajar conmigo?</h2>
+    <a href="#contacto">Contáctame</a>
+  </section>
+
+  <form id="contacto" action="mailto:tucorreo@ejemplo.com" method="post" enctype="text/plain">
+    <h2>Contacto</h2>
+    <input type="text" name="nombre" placeholder="Tu nombre" required>
+    <input type="email" name="email" placeholder="Tu correo" required>
+    <textarea name="mensaje" rows="5" placeholder="Escribe tu mensaje..." required></textarea>
+    <button type="submit">Enviar mensaje</button>
+  </form>
+
+  <footer>
+    © 2026 · Portafolio Profesional
+  </footer>
+<script src="main.js" ></script>
+</body>
+</html>
