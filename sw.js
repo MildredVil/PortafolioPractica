@@ -57,7 +57,7 @@ self.addEventListener('activate', e => {
 });
 //Response con los recursos en cache
 self.addEventListener('fetch', e => {
-    e.respondWidth(
+    e.respondWith(
         caches.match(e.request)
         .then(response => {
             if(response){
